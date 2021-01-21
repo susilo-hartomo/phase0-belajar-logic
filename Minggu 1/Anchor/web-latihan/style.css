@@ -1,0 +1,111 @@
+header {
+    top: 0;
+    width: 100%;
+    font-family: 'poppins';
+    position: fixed;
+    height: 80px;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+.pallate {
+    top: 0;
+}
+
+.pallate img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 20%;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+.grid {
+    grid-column: 45% 35% 20%;
+    grid-template-columns: ;
+}
+.container div {
+    display: inline-block;
+}
+
+.logo-type{
+    width: 45%;
+    height: 80px;
+    background-color: lawngreen;
+}
+
+.logo-type a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    text-justify: distribute;
+}
+
+.nav-bar {
+    width: 35%;
+}
+
+.nav-link{
+    list-style: none;
+    display: inline-flex;
+    list-style-type: none;
+    height: 80px;
+    background-color: lawngreen;
+}
+
+.nav-link lu{
+    list-style: none;
+    height: 80px;
+}
+
+.nav-link li {
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.container .nav-link a{
+    text-decoration: none;
+    columns: #22326B;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.nav-link-rg {
+    width: 18%;
+    height: 80px;
+    background-color: lawngreen;
+    display: inline-block;
+}
+
+.container .nav-link-rg a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF8800;
+}
+/* akhir header */
+
+/* main */
+
+.main {
+    width: inherit;
+    background-image: url("asset/hero.png");
+    margin-top: 80px;
+}
+
+
+
+
+/* akhir main */
